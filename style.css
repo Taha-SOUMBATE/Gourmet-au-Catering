@@ -9,17 +9,17 @@ header {
 .menu-list {
   display: inline-block;
   vertical-align: middle;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .menu-list-items {
   display: inline;
-  padding: 5px 15px;
+  padding: 10px 15px;
   background-color: aqua;
 }
 .logo {
-  margin: 7px 15px;
+  margin: 10px 15px;
   letter-spacing: 3px;
-  padding: 10px 15px;
+  padding: 10px 1px;
   background-color: aqua;
 }
 .menu {
