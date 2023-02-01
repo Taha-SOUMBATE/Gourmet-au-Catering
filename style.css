@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+}
+.logo,
+.menu-list {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 15px;
+}
+.menu-list-items {
+  display: inline;
+  padding: 5px 15px;
+  background-color: aqua;
+}
+.logo {
+  margin: 7px 15px;
+  letter-spacing: 3px;
+  padding: 10px 15px;
+  background-color: aqua;
+}
+.menu {
+  float: right;
+}
+
+.menu-list-link {
+  text-decoration: none;
+}
+
+.menu-list-items:hover,
+.logo:hover {
+  background-color: gray;
+}
