@@ -4,30 +4,33 @@
 }
 header {
   box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 5px;
 }
 .logo,
 .menu-list {
   display: inline-block;
+
   vertical-align: middle;
-  margin-top: 20px;
 }
 .menu-list-items {
   display: inline;
-  padding: 10px 15px;
-  background-color: aqua;
+  margin-left: -3.3px;
+  padding: 10px 20px;
 }
 .logo {
-  margin: 10px 15px;
-  letter-spacing: 3px;
-  padding: 10px 1px;
-  background-color: aqua;
+  letter-spacing: 4px;
+  padding: 10px;
 }
 .menu {
   float: right;
+  margin-top: 8px;
+  margin-right: 5px;
 }
 
 .menu-list-link {
   text-decoration: none;
+  color: black;
+  letter-spacing: 3px;
 }
 
 .menu-list-items:hover,
