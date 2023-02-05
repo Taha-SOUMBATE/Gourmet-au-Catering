@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-size: 15px;
+}
 header {
   box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
   padding: 5px;
@@ -36,4 +39,107 @@ header {
 .menu-list-items:hover,
 .logo:hover {
   background-color: gray;
+}
+.imag {
+  margin: auto;
+}
+.hamburger {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  min-width: 500px;
+}
+.title {
+  position: relative;
+  top: -50px;
+  left: 20px;
+}
+.catering {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  min-width: 100px;
+}
+.catering img {
+  float: left;
+  margin-right: 50px;
+  width: 400px;
+  border-radius: 5px;
+}
+.About {
+  padding-bottom: 200px;
+}
+.About h2,
+.About .sout_titel {
+  text-align: center;
+
+  padding: 20px 50px;
+}
+.About .About_text {
+  text-align: start;
+  font-size: 18px;
+  padding: 10px 50px;
+}
+.About .About_text2 {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: start;
+  padding: 0 55px;
+}
+.Our_Menu {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  min-width: 900px;
+}
+.Our_Menu img {
+  float: right;
+  width: 400px;
+
+  padding-right: 50px;
+}
+.all_content > h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.Our_Menu .content h2 {
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.all_content {
+  padding-top: 10px;
+  margin-right: 0px;
+}
+hr {
+  width: 1200px;
+  margin: auto;
+}
+.Our_Menu {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.Contact {
+  max-width: 1000px;
+  margin: 90px 419px 40px;
+}
+.Contact h2 {
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+.Contact > h3 {
+  color: #607d8b;
+  margin: 20px 0;
+}
+form {
+  max-width: 1000px;
+  margin: auto;
+}
+
+input {
+  display: block;
+  width: 960px;
+  padding: 20px;
+  border: none;
+  border-bottom: 1px solid black;
 }
