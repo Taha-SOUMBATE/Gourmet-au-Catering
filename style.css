@@ -7,7 +7,11 @@ body {
 }
 header {
   box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
   padding: 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .logo,
 .menu-list {
