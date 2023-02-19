@@ -59,6 +59,15 @@ header {
   max-width: 1000px;
   min-width: 100px;
 }
+
+.hamburger {
+  position: relative;
+}
+.hamburger h2 {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
 .catering img {
   float: left;
   margin-right: 50px;
