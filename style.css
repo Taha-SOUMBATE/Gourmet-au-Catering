@@ -128,6 +128,13 @@ hr {
   margin-bottom: 90px;
 }
 .Contact {
+  width: 1000px;
+  margin: auto;
+}
+.fouler button {
+  padding: 5px 10px;
+  border: none;
+  margin-top: 30px;
 }
 .Contact h2 {
   margin-bottom: 50px;
@@ -144,8 +151,9 @@ form {
 
 input {
   display: block;
-  width: 960px;
+  width: 980px;
   padding: 20px;
+  outline: none;
   border: none;
   border-bottom: 1px solid black;
 }
